@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome back!</h1>
+    <form id="login-form">
+        <label for="login-email">Email:</label>
+        <input type="text" id="login-email" name="email" required>
+        <br>
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <div id="create-account-wrap">
+        <p>Not a member? <a href="signin.html">Create Account</a><p>
+      </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" ></script>
+    <script src="./login.js"></script>
+</body>
+
+</html>
